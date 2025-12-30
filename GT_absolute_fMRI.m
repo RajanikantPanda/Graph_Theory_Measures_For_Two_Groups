@@ -1,4 +1,4 @@
-%  Author: Dr. Rajanikant Panda (Email:bk.bme.rajanikant@gmail.com)
+%  Author: Dr. Rajanikant Panda (Email:bk.bme.rajanikant@gmail.com) 
 %  Description: Computes absolute graph theory measures, including:
 %  degree, clustering coefficient, participation coefficient, path length, small-worldness, efficiency, and modularity.clc
 
@@ -74,4 +74,5 @@ for i=1:length(SUBJlist)
         save(varname);
     end
     cd ..
+
 end
