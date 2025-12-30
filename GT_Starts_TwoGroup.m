@@ -1,6 +1,5 @@
 %  Author: Dr. Rajanikant Panda (Email:bk.bme.rajanikant@gmail.com)
-%  Description: This code used to compute the Normalised Graph
-%  Mesures first for both the Control and Patient cohorts, followed by statistical analysis and visualization.
+%  Description: This code used to compute the Normalised Graph Mesures.
 
 %% clear everything
 clc; clear; close all
@@ -290,3 +289,4 @@ y2_PC = mean (sparsity_PC_normalised_Group2);
 z2_PC = std (sparsity_PC_normalised_Group2)/sqrt (length (sparsity_PC_normalised_Group2));
 errorbar (y2_PC,z2_PC, 'r'); grid on; 
 title('Normalised Participation Coeficent')
+
