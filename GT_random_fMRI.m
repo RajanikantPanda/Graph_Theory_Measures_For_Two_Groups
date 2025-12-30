@@ -1,4 +1,4 @@
-%  Author: Dr. Rajanikant Panda (Email:bk.bme.rajanikant@gmail.com)
+%  Author: Dr. Rajanikant Panda (Email:bk.bme.rajanikant@gmail.com).
 %  Description: Computes graph theory measures for random matrix, including:
 %  degree, clustering coefficient, participation coefficient, path length, small-worldness, efficiency, and modularity.clc
 %  this can be used to compute normalised matrices, that is Absolute/Random
@@ -73,3 +73,4 @@ for i=1:length(SUBJlist)
     end
     cd ..
 end
+
